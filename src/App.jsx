@@ -6,20 +6,18 @@ import './components/style.css'
 import HomePage from './components/HomePage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import PropsRecived from './components/PropsRecived'
+import UserReactIcons from './components/BasicURL'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <UserReactIcons/>
     <BrowserRouter>
     <Routes>
       <Route excep path='/' element={<HomePage/>}/>
       <Route excep path='/moveNextPage' element={<PropsRecived/>}/>
     </Routes>
     </BrowserRouter>
-  {/* <HomePage/> */}
-       
     </>
   )
 }
