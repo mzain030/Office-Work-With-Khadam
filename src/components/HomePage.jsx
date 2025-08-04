@@ -15,6 +15,7 @@ history('/moveNextPage')
       <h1>My current state is {color}</h1>
       <button  onClick={()=>setColor("green")}>State Update Green</button>
     <div>Buu</div>
+    <span>Hellow Khadam</span>
 
 <PropsRecived color={color}/>
     </div>

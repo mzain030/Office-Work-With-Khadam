@@ -5,6 +5,7 @@ const UserReactIcons = () => {
     <div>
         <div>
 <CgAirplane style={{width:"700px",height:"300px"}}/>
+<h1>Javascript</h1>
 </div>
     </div>
   )
