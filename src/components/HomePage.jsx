@@ -12,7 +12,9 @@ history('/moveNextPage')
   }
   return (
     <div>
-      <h1>My current state is {color}</h1>
+     <div>My section</div>
+     <div>My Section 2</div>
+     <div>My dddd</div>
       <button  onClick={()=>setColor("green")}>State Update Green</button>
     <div>Buu</div>
     <span>Hellow Khadam</span>
