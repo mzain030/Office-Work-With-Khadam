@@ -14,7 +14,8 @@ history('/moveNextPage')
     <div>
      <div>My section</div>
      <div>My Section 2</div>
-     <div>My dddd</div>
+      <button>Yes its ok </button>
+      <input type='radio'></input>
       <button  onClick={()=>setColor("green")}>State Update Green</button>
     <div>Buu</div>
     <span>Hellow Khadam</span>
