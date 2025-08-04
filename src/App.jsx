@@ -18,6 +18,10 @@ function App() {
       <Route excep path='/moveNextPage' element={<PropsRecived/>}/>
     </Routes>
     </BrowserRouter>
+  <HomePage/>
+  <button onClick={()=>setCount(count+1)}>+</button>
+    <button onClick={()=>setCount(count-1)}>-</button>
+       
     </>
   )
 }
